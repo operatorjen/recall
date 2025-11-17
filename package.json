@@ -1,0 +1,22 @@
+{
+  "name": "recall",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/operatorjen/recall.git"
+  },
+  "license": "AGPL-3.0-or-later",
+  "author": "operatorjen",
+  "type": "module",
+  "dependencies": {
+    "acquisition": "github:operatorjen/acquisition",
+    "funnels": "github:operatorjen/funnels",
+    "merger": "github:operatorjen/merger",
+    "relational": "github:operatorjen/relational"
+  },
+  "main": "index.mjs",
+  "scripts": {
+    "demo": "node demo.mjs"
+  }
+}
